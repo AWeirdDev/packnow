@@ -1,6 +1,10 @@
 # packnow
 Pack everything now. Simple and (maybe) fast.
 
+```shell
+$ pip install packnow
+```
+
 ## 1. Get Packin'
 
 ```haskell
