@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
   name="packnow",
   author="AWeirdDev",
-  version="1.2",
+  version="1.6",
   license="MIT License",
   description="Pack everything, now. Cross-platform.",
   long_description=readme,
@@ -24,13 +24,5 @@ setup(
     "console_scripts": [
       "packnow=packnow.main:main"
     ]
-  },
-  install_requires=[
-      "zipfile", 
-      "termcolor", 
-      "fastapi", 
-      "questionary", 
-      "websockets", 
-      "uvicorn"
-  ]
+  }
 )
